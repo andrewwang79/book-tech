@@ -1,7 +1,10 @@
 * [介绍](README.md)
 * [技术知识](tech/SUMMARY.md)
-  * [服务治理](tech/service-governance.md)
   * [版本和发布](tech/version.md)
+* [架构](arch/SUMMARY.md)
+  * [分布式](tech/distribute/SUMMARY.md)
+    * [RPC](tech/distribute/rpc.md)
+  * [服务治理](tech/sg/SUMMARY.md)
 * 操作系统
   * [网络知识](os/net.md)
   * [IO模型](os/io.md)
