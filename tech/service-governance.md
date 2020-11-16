@@ -1,5 +1,5 @@
 # 服务治理
-服务治理基于RPC包含以下治理中间件
+* 服务治理基于RPC包含以下治理中间件
 
 | 项 | 作用 | 举例 |
 | :-: |  |  |
@@ -14,7 +14,9 @@
 * 注册和配置：https://nacos.io/zh-cn/
 * 流量管理：Sentinel
 
+
 # 资料
+* [ZooKeeper 笔记(3) 实战应用之【统一配置管理】](https://www.cnblogs.com/yjmyzz/p/4604947.html)
 ## [RPC](https://www.jianshu.com/p/959030de7f1c)
 * RPC是一种设计、实现框架。通讯协议是其中一部分，比如HTTP协议
 * RPC的本质是提供了一种轻量无感知的跨进程通信的方式
@@ -22,3 +24,12 @@
   * RPC是根据语言的API来定义的，而不是基于网络的应用来定义的，调用更方便，协议私密更安全、内容更小效率更高。
 * RPC框架一般都有注册中心，有丰富的监控管理；发布、下线接口、动态扩展等，对调用方来说是无感知、统一化的操作。
 * grpc采用http2，性能效率类似tcp
+
+## 微服务的3个重点：服务聚合拆分、事务、查询
+* http://blog.didispace.com/microservice-three-problem-1/
+* http://blog.didispace.com/microservice-three-problem-2/
+* https://www.heguang-tech.com/blog/2020/architect/how-to-design-micro-service/：事件源（Event sourcing），命令查询责任分离（CQRS）
+* https://www.jianshu.com/p/b264a196b177:服务下的数据一致性的几种实现方式之概述
+
+* https://edu.aliyun.com/roadmap/microservice
+* https://github.com/alibaba/Sentinel/wiki/%E4%BB%8B%E7%BB%8D
