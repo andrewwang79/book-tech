@@ -70,3 +70,20 @@ MapReduce引擎。MapReduce的处理技术符合使用键值对的map、shuffle�
 
 ## 资料
 * [大数据学习笔记](https://chu888chu888.gitbooks.io/hadoopstudy/content/)
+
+# 数据挖掘
+## 资料
+- [数据挖掘百科](http://baike.baidu.com/view/7893.htm)
+- [数据挖掘十大经典算法](http://blog.csdn.net/aladdina/article/details/4141177)
+- [数据挖掘十大算法总结–核心思想，算法优缺点，应用领域](http://blog.csdn.net/iemyxie/article/details/40736773)
+[other](http://itindex.net/detail/49268-%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98-%E7%BB%8F%E5%85%B8-%E7%AE%97%E6%B3%95)
+- [机器学习](http://www.cnblogs.com/tornadomeet/p/3395593.html)
+- [SqlServer数据挖掘教程](http://club.topsage.com/thread-162737-1-1.html)
+
+## 区别
+- 数据分析：先决而后知。侧重于解决数据挖掘以外的问题：如描述性统计、交叉报表、假设检验等。
+- 数据挖掘：先知而后决。有模型就是挖掘。侧重解决四类问题：分类、聚类、关联、预测
+
+## 参考
+http://www.gooseeker.com/cn/node/Fuller/2010041303
+http://superlxw1234.iteye.com/blog/1708718
