@@ -18,8 +18,8 @@
 | 服务层 | 消息队列 | Kafka |
 | 服务层 | 搜索 | ES |
 | 服务层 | 日志 | ELK |
-| 服务层 | [全局ID](globalid) |  |
-| 框架层 | [服务治理](sg/SUMMARY) | Spring Cloud |
+| 服务层 | [全局ID](distarch/globalid) |  |
+| 框架层 | [服务治理](distarch/sg/SUMMARY) | Spring Cloud |
 | 框架层-sidecar | 权限，审计日志，字典等 |  |
 
 ## 知识
@@ -38,7 +38,7 @@
 ### MongoDB
 分片，副本集
 
-## 架构技术
+### 架构技术
 * https://mp.weixin.qq.com/s/VpQvqRc8UxZLs5L3iyJoQQ。简单，适用，演化的原则
 * https://www.heguang-tech.com/blog/2020/architect/architect-or-framework/
 * https://doocs.github.io/advanced-java

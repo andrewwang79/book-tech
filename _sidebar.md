@@ -2,7 +2,8 @@
 * 操作系统
   * [网络知识](os/net.md)
   * [IO模型](os/io.md)
-* [分布式系统架构](distarch/SUMMARY.md)
+* 分布式系统架构
+  * [分布式系统架构](distarch/SUMMARY.md)
   * [RPC](distarch/rpc.md)
   * [锁](distarch/locker.md)
   * [全局ID](distarch/globalid.md)
