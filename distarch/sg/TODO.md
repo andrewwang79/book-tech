@@ -15,9 +15,10 @@ https://github.com/ctripcorp/apollo-use-cases
 Spring Boot Admin
 
 # 延伸
-* 限流 熔断 降级怎么做(todo)
+* 限流 熔断 降级怎么做
 * 网关处限流解决方案
 * 远程调用的熔断，降级解决方案
+* 如何跟踪和定位问题
 * 注册中心与CAP原理
 * eureka和zookeeper的区别
 * 如何设计一个rpc框架

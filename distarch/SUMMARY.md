@@ -7,13 +7,13 @@
 
 | 类型 | 功能 | 组件 |
 | - | - | - |
-| 基础层-网络 | 网络负载均衡 | Nginx |
-| 基础层-网络通讯 | [RPC](distarch/rpc) | gRPC |
+| 规范-通讯协议 | [RPC](distarch/rpc) | gRPC |
 | 基础层 | 服务编排 | Kubernetes |
 | 资源层-数据 | 缓存 | Redis |
 | 资源层-数据 | 结构化数据库 | MySQL |
 | 资源层-数据 | 非结构化数据库 | MongoDB |
 | 资源层-文件 | 文件系统 | FastDFS, CEPH |
+| 服务层 | 网络负载均衡 | Nginx |
 | 服务层 | [锁](distarch/locker) | Redis |
 | 服务层 | 消息队列 | Kafka |
 | 服务层 | 搜索 | ES |
@@ -38,7 +38,7 @@
 ### MongoDB
 分片，副本集
 
-### 架构技术
+### 架构技术TODO
 * https://mp.weixin.qq.com/s/VpQvqRc8UxZLs5L3iyJoQQ。简单，适用，演化的原则
 * https://www.heguang-tech.com/blog/2020/architect/architect-or-framework/
 * https://doocs.github.io/advanced-java

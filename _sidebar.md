@@ -7,8 +7,8 @@
   * [RPC](distarch/rpc.md)
   * [锁](distarch/locker.md)
   * [全局ID](distarch/globalid.md)
-  * [服务治理](distarch/sg/SUMMARY.md)
-    * [配置](distarch/sg/config.md)
+  * 服务治理
+    * [服务治理](distarch/sg/SUMMARY.md)
     * [事务](distarch/sg/transaction.md)
   * 组件原理
     * [Nginx](distarch/component/nginx.md)
