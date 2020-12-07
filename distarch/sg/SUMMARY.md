@@ -19,12 +19,6 @@
 1. **DevOps**
 1. 管理工具，如调用链管理
 
-### 3个技术点
-技术点：服务聚合拆分、事务、查询
-* http://blog.didispace.com/microservice-three-problem-1/
-* http://blog.didispace.com/microservice-three-problem-2/
-* https://www.heguang-tech.com/blog/2020/architect/how-to-design-micro-service/：事件源（Event sourcing），命令查询责任分离（CQRS）
-
 ## 介绍
 * 服务治理基于RPC包含以下治理中间件
 
@@ -42,9 +36,6 @@
 | :----: | -- | -- | -- |
 | 降级 | 压力瞬间剧增 | 降低整体负荷 | 简单/延迟/暂停使用一些不重要/不紧急的服务，释放资源以保证核心交易正常运作或高效运作 |
 | 熔断 | 某个下游服务故障 | 防止雪崩效应 | 熔断该节点微服务的调用，快速返回错误的响应信息。当检测到服务调用响应正常后，恢复调用链路 |
-
-![](/s/microservice.png)
-说明：绿色虚框是SpringCloud的服务，蓝色虚框是业务方工作
 
 ## 服务治理组件
 ### 网关

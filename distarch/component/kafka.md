@@ -1,4 +1,9 @@
 # Kafka
+## QA
+* 高可用
+* 消息消费的幂等性(redis bitmap)
+* 消息的可靠性传输(回调控制)
+* 消息的顺序性
 
 ## 介绍
 * 是一个分布式、支持分区的（partition）、多副本的（replica），基于zookeeper协调的分布式消息系统。用scala语言编写

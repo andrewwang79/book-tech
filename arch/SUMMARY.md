@@ -1,9 +1,0 @@
-# 架构
-## 资料
-* https://mp.weixin.qq.com/s/VpQvqRc8UxZLs5L3iyJoQQ。简单，适用，演化的原则
-* https://www.heguang-tech.com/blog/2020/architect/architect-or-framework/
-* https://doocs.github.io/advanced-java
-* http://class.imooc.com/sale/javaarchitect
-* https://www.rainbond.com/docs/quick-start/rainbond_overview/
-* [CAP定理](http://www.ruanyifeng.com/blog/2018/07/cap.html)
-* [服务下的数据一致性的几种实现方式之概述](https://www.jianshu.com/p/b264a196b177)

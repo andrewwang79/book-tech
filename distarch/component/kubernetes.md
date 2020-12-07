@@ -1,5 +1,10 @@
 # Kubernetes
 
+## 资料
+* [扫盲](https://www.cnblogs.com/menkeyi/p/7134460.html)
+* [官方](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+https://www.kubernetes.org.cn/
+
 1. 容器编排系统，服务扩容和升级
 1. 服务进程放在Pod对象中
 
