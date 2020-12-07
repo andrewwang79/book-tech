@@ -1,25 +1,25 @@
 # 分布式系统
 
 ## 架构图
-![](/s/distarch/arch.jpg)
+![](../s/distarch/arch.jpg)
 
 ## 构成
 
 | 类型 | 功能 | 组件 |
 | - | - | - |
 | 基础层-网络 | 网络负载均衡 | Nginx |
-| 基础层-网络通讯 | [RPC](./rpc) | gRPC |
+| 基础层-网络通讯 | [RPC](distarch/rpc) | gRPC |
 | 基础层 | 服务编排 | Kubernetes |
 | 资源层-数据 | 缓存 | Redis |
 | 资源层-数据 | 结构化数据库 | MySQL |
 | 资源层-数据 | 非结构化数据库 | MongoDB |
 | 资源层-文件 | 文件系统 | FastDFS, CEPH |
-| 服务层 | 锁 | Redis |
+| 服务层 | [锁](distarch/locker) | Redis |
 | 服务层 | 消息队列 | Kafka |
 | 服务层 | 搜索 | ES |
 | 服务层 | 日志 | ELK |
-| 服务层 | 全局ID |  |
-| 框架层 | [服务治理](sg/) | Spring Cloud |
+| 服务层 | [全局ID](globalid) |  |
+| 框架层 | [服务治理](sg/SUMMARY) | Spring Cloud |
 | 框架层-sidecar | 权限，审计日志，字典等 |  |
 
 ## 知识
