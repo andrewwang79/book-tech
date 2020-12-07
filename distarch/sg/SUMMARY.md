@@ -56,7 +56,8 @@
   * 服务依赖和调用链。pinpoint
   * 动态路由
 
-### [熔断&降级](https://blog.csdn.net/guwei9111986/article/details/51649240)
+### 熔断&降级
+* [熔断&降级](https://blog.csdn.net/guwei9111986/article/details/51649240)
 
 | 项 | 触发 | 目的 | 处理方式 |
 | :----: | -- | -- | -- |
