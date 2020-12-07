@@ -7,9 +7,7 @@
   * [RPC](distarch/rpc.md)
   * [锁](distarch/locker.md)
   * [全局ID](distarch/globalid.md)
-  * 服务治理
-    * [服务治理](distarch/sg/SUMMARY.md)
-    * [事务](distarch/sg/transaction.md)
+  * [服务治理](distarch/sg/SUMMARY.md)
   * 组件原理
     * [Nginx](distarch/component/nginx.md)
     * [Kubernetes](distarch/component/kubernetes.md)
@@ -20,7 +18,7 @@
     * [Kafka](distarch/component/kafka.md)
     * [ELK](distarch/component/elk.md)
 * [技术](common/SUMMARY.md)
-  * [重构](common/reorg.md)
+  * [架构设计](common/arch.md)
   * [JVM原理](common/jvm.md)
   * [运维](common/ops.md)
   * [问题解决](common/toubleshooting.md)

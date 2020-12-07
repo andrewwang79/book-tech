@@ -1,6 +1,6 @@
 # 服务治理
-![](../s/distarch/sg.jpg)
-![](../s/distarch/ms.jpg)
+![](../../s/distarch/sg.jpg)
+![](../../s/distarch/ms.jpg)
 
 ## 微服务
 ### 趋势原因

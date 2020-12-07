@@ -38,8 +38,8 @@
 ### MongoDB
 分片，副本集
 
-### 架构技术TODO
-* https://mp.weixin.qq.com/s/VpQvqRc8UxZLs5L3iyJoQQ。简单，适用，演化的原则
+## 架构技术
+* https://mp.weixin.qq.com/s/VpQvqRc8UxZLs5L3iyJoQQ
 * https://www.heguang-tech.com/blog/2020/architect/architect-or-framework/
 * https://doocs.github.io/advanced-java
 * http://class.imooc.com/sale/javaarchitect
@@ -55,3 +55,13 @@
 * http://blog.didispace.com/microservice-three-problem-1/
 * http://blog.didispace.com/microservice-three-problem-2/
 * https://www.heguang-tech.com/blog/2020/architect/how-to-design-micro-service/：事件源（Event sourcing），命令查询责任分离（CQRS）
+
+### 事务
+* [聊聊分布式事务&分布式系统事务一致性解决方案](http://blog.csdn.net/gaowenhui2008/article/details/53910341)
+* [阿里的GTS](http://tech.huanqiu.com/news/2017-04/10451235.html)
+* [如何用消息系统避免分布式事务](http://www.cnblogs.com/LBSer/p/4715395.html)
+* [利用简单的事件驱动组件简化系统](http://www.test.infoq.com/cn/news/2013/06/components-simplicity-events)
+
+#### springboot多库分布式事务管理（atomikos）
+* https://blog.csdn.net/WI_232995/article/details/78124885
+* https://my.oschina.net/bianxin/blog/1610100
