@@ -1,4 +1,4 @@
-# 分布式系统
+# 分布式系统架构
 
 ## 架构图
 ![](../s/distarch/arch.jpg)
@@ -22,43 +22,8 @@
 | 框架层 | [服务治理](distarch/sg/SUMMARY) | Spring Cloud |
 | 框架层-sidecar | 权限，审计日志，字典等 |  |
 
-## 知识
+## 资料
 * [漫谈何时从单体架构迁移到微服务？](https://mp.weixin.qq.com/s/VpQvqRc8UxZLs5L3iyJoQQ)
 * [多研究些架构，少谈些框架](https://www.heguang-tech.com/blog/2020/architect/architect-or-framework/)
-* [互联网 Java 工程师进阶知识完全扫盲](https://doocs.github.io/advanced-java)
 * [imooc公开课](http://class.imooc.com/sale/javaarchitect)
 * [阿里云公开课](https://edu.aliyun.com/roadmap/microservice)
-
-### 重点：服务聚合拆分、事务、查询
-* http://blog.didispace.com/microservice-three-problem-1/
-* http://blog.didispace.com/microservice-three-problem-2/
-* https://www.heguang-tech.com/blog/2020/architect/how-to-design-micro-service/：事件源（Event sourcing），命令查询责任分离（CQRS）
-
-### 数据一致性
-* [CAP定理](http://www.ruanyifeng.com/blog/2018/07/cap.html)
-* [服务下的数据一致性的几种实现方式之概述](https://www.jianshu.com/p/b264a196b177)
-
-### 同步
-* [Paxos算法简易理解](https://www.zybuluo.com/heavysheep/note/620169)
-
-### 事务
-* [聊聊分布式事务&分布式系统事务一致性解决方案](http://blog.csdn.net/gaowenhui2008/article/details/53910341)
-* [阿里的GTS](http://tech.huanqiu.com/news/2017-04/10451235.html)
-* [如何用消息系统避免分布式事务](http://www.cnblogs.com/LBSer/p/4715395.html)
-* [利用简单的事件驱动组件简化系统](http://www.test.infoq.com/cn/news/2013/06/components-simplicity-events)
-* springboot多库分布式事务管理（atomikos）:https://blog.csdn.net/WI_232995/article/details/78124885, https://my.oschina.net/bianxin/blog/1610100
-
-### 接口幂等性
-* 接口可重复调用，在调用方多次调用的情况下，接口最终得到的结果是一致的
-
-| 操作 | 实现 |
-| - | - |
-| insert | 唯一索引 |
-| delete | 唯一索引(删除之前，先查询是否存在) |
-| update | 乐观锁(version字段控制) |
-| select | 无 |
-
-### 布隆过滤器
-
-### MongoDB
-分片，副本集

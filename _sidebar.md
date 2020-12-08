@@ -4,6 +4,8 @@
   * [IO模型](os/io.md)
 * 分布式系统架构
   * [分布式系统架构](distarch/SUMMARY.md)
+  * [知识](distarch/kb.md)
+  * [事务](distarch/transaction.md)
   * [RPC](distarch/rpc.md)
   * [锁](distarch/locker.md)
   * [全局ID](distarch/globalid.md)
