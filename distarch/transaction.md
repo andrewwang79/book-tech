@@ -8,7 +8,7 @@
 ```
 
 ## 微服务开发过程中的挑战
-* [3个难题(拆分、事务、查询](https://www.heguang-tech.com/blog/2020/architect/how-to-design-micro-service/)
+* [3个难题(拆分、事务、查询)](https://www.heguang-tech.com/blog/2020/architect/how-to-design-micro-service/)
 ### 原有的分布式事务无法在微服务下使用
 1. 原因
   * 业务侵入，无法用于微服务
@@ -99,7 +99,7 @@
 * [如何用消息系统避免分布式事务](http://www.cnblogs.com/LBSer/p/4715395.html)
 * [微服务架构下的分布式数据管理 ](https://www.sohu.com/a/129437612_468741)
 * springboot多库分布式事务管理（atomikos）:https://blog.csdn.net/WI_232995/article/details/78124885, https://my.oschina.net/bianxin/blog/1610100
-
+* 分布式事务现有框架: http://seata.io/zh-cn/docs/overview/what-is-seata.html, https://www.codingapi.com/docs/txlcn-preface/
 ### CAP
 [CAP定理](http://www.ruanyifeng.com/blog/2018/07/cap.html)
   * 一致性(C onsistency), 可用性(A vailability), 分区容忍性(P artition tolerance)

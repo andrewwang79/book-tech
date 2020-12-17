@@ -34,6 +34,7 @@
   * [Storm](bigdata/Storm.md)
 * [人工智能](ai/SUMMARY.md)
 * [图形学](graphics/SUMMARY.md)
+  * [ITK](graphics/itk.md)
 * 行业知识
   * [医疗](industry/medical/README.md)
       * [放射](industry/medical/radiology.md)
