@@ -2,6 +2,11 @@
 * 操作系统
   * [网络知识](os/net.md)
   * [IO模型](os/io.md)
+* 数据结构
+  * [树](ds/tree.md)
+* 协议理论
+  * [架构设计](common/arch.md)
+  * [JVM原理](common/jvm.md)
 * 分布式系统架构
   * [分布式系统架构](distarch/SUMMARY.md)
   * [知识](distarch/kb.md)
@@ -19,15 +24,6 @@
     * [SpringCloud](distarch/component/springcloud.md)
     * [Kafka](distarch/component/kafka.md)
     * [ELK](distarch/component/elk.md)
-* [技术](common/SUMMARY.md)
-  * [架构设计](common/arch.md)
-  * [JVM原理](common/jvm.md)
-  * [运维](common/ops.md)
-  * [问题解决](common/toubleshooting.md)
-  * [版本和发布](common/version.md)
-  * [区块链](common/block-chain.md)
-  * [electron](common/electron.md)
-  * [excel](common/excel.md)
 * [大数据](bigdata/SUMMARY.md)
   * [Hadoop](bigdata/Hadoop.md)
   * [Spark](bigdata/Spark.md)
@@ -35,6 +31,14 @@
 * [人工智能](ai/SUMMARY.md)
 * [图形学](graphics/SUMMARY.md)
   * [ITK](graphics/itk.md)
+* [技术](common/SUMMARY.md)
+  * [运维](common/ops.md)
+  * [问题解决](common/toubleshooting.md)
+  * [版本和发布](common/version.md)
+  * [区块链](common/block-chain.md)
+  * [electron](common/electron.md)
+  * [excel](common/excel.md)
+  * [工作流](common/workflow.md)
 * 行业知识
   * [医疗](industry/medical/README.md)
       * [放射](industry/medical/radiology.md)
