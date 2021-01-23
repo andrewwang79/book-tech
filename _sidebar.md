@@ -35,6 +35,7 @@
   * [运维](common/ops.md)
   * [问题解决](common/toubleshooting.md)
   * [版本和发布](common/version.md)
+  * [灰度升级](common/grayupgrade.md)
   * [区块链](common/block-chain.md)
   * [electron](common/electron.md)
   * [excel](common/excel.md)
