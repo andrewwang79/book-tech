@@ -13,6 +13,17 @@
 | Revision | hotfix。Major或者Minor改变时会重置为0 |
 | Build | 编译 |
 
+版本命名规范
+
+| 分类 | 名称 | 示例 | 说明 |
+| :-- | -- | -- | -- |
+| TAG | 编译 | v5.0.0.13124 | v4位数字，临时使用 |
+| TAG | 发布 | v5.0.0 |  v3位数字 |
+| 分支 | 主干 | master/dev |  从本分支发布版本 |
+| 分支 | 版本开发 | 1.0.1, 1.0.x, 21 | Revision版本，Revision范围版本，sprint号 |
+| 分支 | 功能开发 | feature-123, feature-mall_order | feature-[jira号 \| 功能说明 ] |
+| 分支 | hotfix | hotfix-123, hotfix-login_fail | hotfix-[bug号 \| bug说明 ] |
+
 ### 阶段
 * Alpha、Beta、Gamma、RC（Release Candidate）、Release
 
