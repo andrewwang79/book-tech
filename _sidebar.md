@@ -10,6 +10,7 @@
 * 分布式系统架构
   * [分布式系统架构](distarch/SUMMARY.md)
   * [知识](distarch/kb.md)
+  * [消息队列](distarch/mq.md)
   * [事务](distarch/transaction.md)
   * [RPC](distarch/rpc.md)
   * [锁](distarch/locker.md)
