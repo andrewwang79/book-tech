@@ -43,6 +43,7 @@
   * [electron](common/electron.md)
   * [excel](common/excel.md)
   * [工作流](common/workflow.md)
+  * [流媒体](common/streammedia.md)
 * 行业知识
   * [医疗](industry/medical/README.md)
       * [放射](industry/medical/radiology.md)
