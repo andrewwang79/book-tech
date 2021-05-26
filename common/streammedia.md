@@ -23,7 +23,12 @@
 HLS 延迟大，适合视频点播；RTSP虽然实时性最好，但是实现复杂，适合视频聊天和视频监控；RTMP强在浏览器支持好，加载flash插件后就能直接播放，所以非常火，相反在浏览器里播放rtsp就很困难了。
 
 ## 方案
-* **[HTML5播放RTSP视频](https://zhuanlan.zhihu.com/p/75406976)**
+### 实现
+* [HTML5播放RTSP视频](https://zhuanlan.zhihu.com/p/75406976)
+* [rtsp-ffmpeg](https://www.npmjs.com/package/rtsp-ffmpeg)
+* [Ffmpeg+Node.js+jsmpeg.js实现html5播放rtsp](https://blog.csdn.net/l15738519366/article/details/105844281)
+
+### 资料
 * [视频点播流媒体服务器调研](https://www.qingtingip.com/h_251689.html)
 * [Linux下视频流媒体服务器搭建详解](https://blog.csdn.net/u011596455/article/details/79431116)
 * [基于Nginx配置Web视频流媒体服务器](https://leefige.github.io/2019/03/05/%E5%9F%BA%E4%BA%8ENginx%E9%85%8D%E7%BD%AEWeb%E8%A7%86%E9%A2%91%E6%B5%81%E5%AA%92%E4%BD%93%E6%9C%8D%E5%8A%A1%E5%99%A8/)

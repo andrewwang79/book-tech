@@ -54,3 +54,4 @@
 * 参考
   * [术语中英文](ref/term.md)
   * [中国行政结构](ref/china.md)
+  * [专利](ref/patent.md)
