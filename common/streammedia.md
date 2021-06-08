@@ -4,11 +4,11 @@
 * [理解RTMP、HttpFlv和HLS的正确姿势](https://www.jianshu.com/p/32417d8ee5b6)
 * [流媒体传输协议（rtp/rtcp/rtsp/rtmp/mms/hls）](https://zhuanlan.zhihu.com/p/27442401)
 
-| 术语 | 说明 | 开发商 |
-| :-: | - | - |
-| HLS（ HTTP Live Streaming） | 适合视频点播，不适合直播 | Apple |
-| RTSP（Real-Time Stream Protocol） | 摄像头事实标准 | Real Networks 和 Netscape |
-| RTMP（Real Time Message Protocol） | 直播 | Adobe |
+| 术语 | 说明 | 场景 | 开发商 |
+| :-: | - | - | - |
+| HLS（ HTTP Live Streaming） | 延迟大，适合视频点播，不适合直播 | 点播 | Apple |
+| RTSP（Real-Time Stream Protocol） | 实时性最好，但是实现复杂。摄像头事实标准 | 聊天和监控| Real Networks 和 Netscape |
+| RTMP（Real Time Message Protocol） | 浏览器支持好，加载flash插件后就能直接播放 | 直播 | Adobe |
 
 ### HLS
 直接把流媒体切片成一段段，信息保存到m3u列表文件中，可以将不同速率的版本切成相应的片；播放器可以直接使用http协议请求流数据，可以在不同速率的版本间自由切换，实现无缝播放；省去使用其他协议的烦恼。缺点是延迟大小受切片大小影响，不适合直播，适合视频点播。
@@ -18,9 +18,6 @@
 
 ### RTMP
 用来解决多媒体数据传输流的多路复用（Multiplexing）和分包（packetizing）的问题，优势在于低延迟，稳定性高，支持所有摄像头格式，浏览器加载 flash插件就可以直接播放。
-
-### 总结
-HLS 延迟大，适合视频点播；RTSP虽然实时性最好，但是实现复杂，适合视频聊天和视频监控；RTMP强在浏览器支持好，加载flash插件后就能直接播放，所以非常火，相反在浏览器里播放rtsp就很困难了。
 
 ## 方案
 ### 实现
