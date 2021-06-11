@@ -38,7 +38,6 @@
   * [ITK](graphics/itk.md)
 * [技术](common/SUMMARY.md)
   * [运维](common/ops.md)
-  * [监控报警](common/monitor.md)
   * [问题解决](common/toubleshooting.md)
   * [版本和发布](common/version.md)
   * [灰度升级](common/grayupgrade.md)

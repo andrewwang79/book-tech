@@ -45,6 +45,8 @@
 * [Transfer Syntax](https://blog.csdn.net/u014738683/article/details/54573611)
 * [SOP](https://blog.csdn.net/u014738683/article/details/54573728)
 * [数据类型](https://blog.csdn.net/inter_peng/article/details/46513847)
+* [DICOM：C-GET与C-MOVE对比剖析](https://blog.csdn.net/zssureqh/article/details/46868695)
+
 * [GE](http://www3.gehealthcare.co.uk/~/media/documents/us-global/products/interoperability/dicom/radiology-pacs-ris/gehc-dicom-conformance_pathspeedpacs-v8-1_iisfp10282_rev2.pdf)
 * [GE Private TS](https://blog.csdn.net/zssureqh/article/details/47222685)
 
