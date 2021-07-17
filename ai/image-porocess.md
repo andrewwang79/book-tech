@@ -12,7 +12,7 @@
 | 项 | 说明 |
 | :-: | - |
 | [Gstreamer](https://www.cnblogs.com/xleng/p/10948838.html) |  |
-| [DeepSteam](https://www.qbitai.com/2019/05/2296.html) |  |
+| [DeepStream](https://www.qbitai.com/2019/05/2296.html) |  |
 
 ## 资料
 * [流媒体](https://tech.wangyaqi.cn/#/common/streammedia)
