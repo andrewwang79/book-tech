@@ -29,3 +29,6 @@
 * [程序员实用深度学习免费课程：从入门到实践](http://it.sohu.com/20161229/n477271598.shtml)
 * [九本不容错过的深度学习和神经网络书籍](http://it.sohu.com/20161229/n477271599.shtml)
 * [2016AI巨头开源IP盘点 50个最常用的深度学习库](https://news.cnblogs.com/n/559753/)
+
+## 学习清单
+* [寒武纪课程](https://developer.cambricon.com/index/curriculum/index/classid/7.html)
