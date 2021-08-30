@@ -33,6 +33,7 @@
   * [Storm](bigdata/Storm.md)
   * [数据仓库和抓取](bigdata/warehouse.md)
 * [人工智能](ai/SUMMARY.md)
+  * [开发](ai/dev.md)
   * [图像处理](ai/image-porocess.md)
 * [图形学](graphics/SUMMARY.md)
   * [ITK](graphics/itk.md)
