@@ -6,6 +6,7 @@
   * [树](ds/tree.md)
 * 协议理论
   * [架构设计](common/arch.md)
+  * [中间件](common/middleware.md)
   * [JVM原理](common/jvm.md)
   * [密码学](common/cryptography.md)
   * [时间序列数据库](common/tsdb.md)
