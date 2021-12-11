@@ -5,7 +5,7 @@
 * 数据结构
   * [树](ds/tree.md)
 * 协议理论
-  * [架构设计](common/arch.md)
+  * [架构知识](common/arch.md)
   * [中间件](common/middleware.md)
   * [JVM原理](common/jvm.md)
   * [密码学](common/cryptography.md)
@@ -36,7 +36,7 @@
 * [人工智能](ai/SUMMARY.md)
   * [开发](ai/dev.md)
   * [图像处理](ai/image-porocess.md)
-* [图形学](graphics/SUMMARY.md)
+* [图像处理](graphics/SUMMARY.md)
   * [ITK](graphics/itk.md)
 * [技术](common/SUMMARY.md)
   * [运维](common/ops.md)
