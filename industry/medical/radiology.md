@@ -40,6 +40,8 @@
 | JPG/PNG/tiff |  | 图片 |
 
 ### dicom
+![患者坐标系](/s/industry/medical/PatientCoordinateSystem.png)
+
 #### 资料
 * [官网](https://www.dicomlibrary.com/)
 * [Transfer Syntax](https://blog.csdn.net/u014738683/article/details/54573611)
@@ -65,6 +67,11 @@
 1. RGB = 像素值 * (LargestImagePixelValue - SmallestImagePixelValue) / 255
 1. 密度值窗位选择: zoneMin < [WindowCenter-WindowWidth/2, WindowCenter+WindowWidth/2] < zoneMax。zoneMin的密度值是最小窗，zoneMax的密度值是最大窗
 
+### NIFTI
+* [NIFTI格式(.Nii)数据version 1格式分析](https://blog.csdn.net/DoronLee/article/details/78597868)
+* [NIfTI-1 Data Format](https://nifti.nimh.nih.gov/nifti-1)
+* [niftilib i/o libraries for nifti-1](http://niftilib.sourceforge.net/)
+
 ## 资料
 ### 显示器
 * 普通显示器分辨率1920*1080，DELL E2216HV
@@ -81,7 +88,6 @@
 * [ITK与VTK数据转换](https://blog.csdn.net/menjiawan/article/details/47283809)
 
 ### 坐标系
-
 | 类型 | 坐标原点 | 图像首个像素(左上角)存储位置 |
 | :----: | ---- | ---- |
 | ITK | 图像的左下角 | 左上角 |
@@ -90,6 +96,7 @@
 ### 软件
 | 类型 | 名称 | 说明 |
 | :----: | ---- | ---- |
-| [itksnap](http://www.itksnap.org) |  |  |
+| [ITK-SNAP](http://www.itksnap.org) |  |  |
+| RadiAnt DICOM Viewer |  |  |
 | [NDP.view2](https://www.hamamatsu.com/jp/en/product/type/U12388-01/index.html) |  |  |
 | eFilm Workstation |  |  |
