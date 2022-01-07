@@ -99,7 +99,7 @@
 * [【相机标定】四个坐标系之间的变换关系](https://cloud.tencent.com/developer/article/1820935)
 
 #### 人体坐标系和图像坐标系
-![人体坐标系](/s/industry/medical/PatientCoordinateSystem.png)
+![人体坐标系](../../s/industry/medical/PatientCoordinateSystem.png)
 * 轴状位/横断面（The axial plane）:脚部(Inferior), 头部(Superior)
 * 图像坐标系转换到人体坐标系：通过图像的原点和间距，计算其在人体坐标系中的对应位置
 
