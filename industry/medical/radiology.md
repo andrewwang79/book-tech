@@ -30,18 +30,19 @@
 ## 影像文件
 | 类型 | 全称 | 说明 |
 | :----: | ---- | ---- |
-| dcm |  | Orthanc - DICOM Server。内容格式是{x，y，灰度(float？)} |
-| mha/mhd |  |  |
+| dicom | Digital Imaging and Communication In Medicine | Orthanc - DICOM Server |
+| mha/mhd |  | 体数据，mhd包含图像的meta data（信息头）和图像裸数据 |
+| NIFTI | Neuroimaging Informatics Technology Initiative | 体数据，nii/nii.gz |
 | nrrd |  |  |
-| nii |  | 压缩比好。主要用于分割后的二值（2种灰度） |
-| NIFTI | Neuroimaging Informatics Technology Initiative | 文件后缀名为.nii.gz，其实是nii的压缩版本。Data Format Working Group (DFWG), [参考](https://blog.csdn.net/DoronLee/article/details/78597868) |
 | stl |  | 基于dcm等图像，三维重建模型 |
-| hdr |  |  |
 | JPG/PNG/tiff |  | 图片 |
 
-### dicom
-![患者坐标系](/s/industry/medical/PatientCoordinateSystem.png)
+### NIFTI
+* [资料1](https://blog.csdn.net/weixin_42089190/article/details/116710684), [资料2](https://blog.csdn.net/DoronLee/article/details/78597868)
+* NIFTI格式主要包含三部分：hdr,ext,img
+* Data Format Working Group (DFWG)
 
+### dicom
 #### 资料
 * [官网](https://www.dicomlibrary.com/)
 * [Transfer Syntax](https://blog.csdn.net/u014738683/article/details/54573611)
@@ -71,6 +72,7 @@
 * [NIFTI格式(.Nii)数据version 1格式分析](https://blog.csdn.net/DoronLee/article/details/78597868)
 * [NIfTI-1 Data Format](https://nifti.nimh.nih.gov/nifti-1)
 * [niftilib i/o libraries for nifti-1](http://niftilib.sourceforge.net/)
+* [体数据NIfTI和DICOM的格式互转](https://blog.csdn.net/weixin_39944074/article/details/110636490) : nifti2dicom
 
 ## 资料
 ### 显示器
@@ -88,10 +90,31 @@
 * [ITK与VTK数据转换](https://blog.csdn.net/menjiawan/article/details/47283809)
 
 ### 坐标系
-| 类型 | 坐标原点 | 图像首个像素(左上角)存储位置 |
+* [坐标系](https://www.cnblogs.com/biaohuang/p/14419118.html)
+| 坐标系 | 说明 |
+| :----: | ---- |
+| 世界坐标系 |  |
+| 人体/解剖学坐标系 | 单位是mm |
+| 图像坐标系 | 单位是点(因为间距不定，点的mm也不定)，原点在左上角。i坐标轴向右递增，j坐标轴向下递增，k坐标轴向后递增。 |
+* [【相机标定】四个坐标系之间的变换关系](https://cloud.tencent.com/developer/article/1820935)
+
+#### 人体坐标系和图像坐标系
+![人体坐标系](../../s/industry/medical/PatientCoordinateSystem.png)
+* 轴状位/横断面（The axial plane）:脚部(Inferior), 头部(Superior)
+* 图像坐标系转换到人体坐标系：通过图像的原点和间距，计算其在人体坐标系中的对应位置
+
+#### Dicom坐标tag
+| TAG | 英文说明 | 说明 |
 | :----: | ---- | ---- |
-| ITK | 图像的左下角 | 左上角 |
-| VTK | 图像的左下角 | 左下角 |
+| Image Position (Patient) | The x, y and z coordinates of the upper left hand corner of the image, in mm. | 图像的左上角在空间坐标系中的x,y,z坐标,单位是毫米. 如果在检查中,则指该序列中第一张影像左上角的坐标. |
+| Image Orientation (Patient) | The direction cosines of the first row and the first column with respect to the patient. | 人体扫描时的朝向 |
+
+#### 第三方库的坐标信息
+| 类型 | 坐标系 | 坐标原点 | 图像首个像素(左上角)存储位置 |
+| :----: | ---- | ---- | ---- |
+| ITK | LPS：（Left，Posterior，Superior）| 图像的左下角 | 左上角 |
+| VTK |  | 图像的左下角 | 左下角 |
+| 3D Slicer | RAS：（Right，Anterior，Superior） |  |  |
 
 ### 软件
 | 类型 | 名称 | 说明 |
