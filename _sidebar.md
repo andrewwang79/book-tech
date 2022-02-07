@@ -18,6 +18,7 @@
   * [RPC](distarch/rpc.md)
   * [锁](distarch/locker.md)
   * [全局ID](distarch/globalid.md)
+  * [分库分表](distarch/db.md)
   * [服务治理](distarch/sg/SUMMARY.md)
   * 组件原理
     * [Nginx](distarch/component/nginx.md)
@@ -39,6 +40,9 @@
 * [图像处理](graphics/SUMMARY.md)
   * [ITK](graphics/itk.md)
   * [可视化](graphics/visualization.md)
+* [实时系统和通讯](rtos/SUMMARY.md)
+  * [ros](rtos/ros.md)
+  * [dds](rtos/dds.md)
 * [技术](common/SUMMARY.md)
   * [运维](common/ops.md)
   * [问题解决](common/toubleshooting.md)
