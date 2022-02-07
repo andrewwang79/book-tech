@@ -11,4 +11,5 @@
 | 前端C | QT+VTK | 支持复杂操作 | 依赖终端的内存和算力；终端不同需重做，比如手机端要换QT |
 
 ## 资料
-https://www.incool3d.com/
+* https://www.incool3d.com/
+* https://www.weiyunyingxiang.com/

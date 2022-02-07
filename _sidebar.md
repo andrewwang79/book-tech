@@ -33,9 +33,6 @@
   * [Spark](bigdata/Spark.md)
   * [Storm](bigdata/Storm.md)
   * [数据仓库和抓取](bigdata/warehouse.md)
-* [实时系统和通讯](rtos/SUMMARY.md)
-  * [DDS](rtos/dds.md)
-  * [ROS](rtos/ros.md)
 * [人工智能](ai/SUMMARY.md)
   * [开发](ai/dev.md)
   * [生态库](ai/eco.md)
@@ -52,6 +49,7 @@
   * [excel](common/excel.md)
   * [工作流](common/workflow.md)
   * [流媒体](common/streammedia.md)
+  * [数据备份方案](common/dataBackup.md)
 * 行业知识
   * [医疗](industry/medical/README.md)
       * [放射](industry/medical/radiology.md)
