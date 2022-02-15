@@ -57,6 +57,7 @@
 * 行业知识
   * [医疗](industry/medical/README.md)
       * [放射](industry/medical/radiology.md)
+      * [手术机器人](industry/medical/robot.md)
   * [金融](industry/finance/README.md)
   * [零售](industry/retail/README.md)
   * [物联网](industry/iot/README.md)
