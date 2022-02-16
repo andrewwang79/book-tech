@@ -1,7 +1,7 @@
 # 版本和发布
 
 ## 版本
-### 结构(GUN)
+### 结构(GNU)
 * https://semver.org/lang/zh-CN/
 * 主版本号.子版本号[.修正版本号[.编译版本号]]
 * Major.Minor[.Revision[.BuildNumber]]
@@ -12,7 +12,7 @@
 | Major | 大升级。如整体架构变动，大功能新增，向后兼容性 |
 | Minor | 功能新增。Major改变时会重置为0 |
 | Revision | hotfix，可以是多个bug。Major或者Minor改变时会重置为0 |
-| Build | 构建。如次数，时间等。不同Build的代码可以不一样【提测失败了】，也可以一样【构建异常了】 |
+| Build | 构建。如构建次数，构建时间戳等。次数可以提前准备好；时间戳无法提前准备好，且需要【构建成功后打tag，产品能动态加载版本】 |
 
 #### 构建流程版本示例
 * Revision不变情况下的build，当前版本是1.0.0
