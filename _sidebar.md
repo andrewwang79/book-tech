@@ -54,6 +54,9 @@
   * [工作流](common/workflow.md)
   * [流媒体](common/streammedia.md)
   * [数据备份方案](common/dataBackup.md)
+* 测试
+    * [单元测试](test/ut.md)
+    * [测试](test/test.md)
 * 行业知识
   * [医疗](industry/medical/README.md)
       * [放射](industry/medical/radiology.md)
