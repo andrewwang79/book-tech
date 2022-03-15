@@ -32,4 +32,4 @@
 * [寒武纪课程](https://developer.cambricon.com/index/curriculum/index/classid/7.html)
 
 ## 知识
-![混淆矩阵](/s/ai/confusionMatrix.png)
+![混淆矩阵](../s/ai/confusionMatrix.png)
