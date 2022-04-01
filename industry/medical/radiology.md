@@ -116,6 +116,15 @@
 | VTK |  | 图像的左下角 | 左下角 |
 | 3D Slicer | RAS：（Right，Anterior，Superior） |  |  |
 
+#### 像素和物理坐标系转换
+```
+像素到物理：physics[i] = origin[i] + pixel[i] * spacing[i]。像素*层间距+起始坐标offset
+物理到像素：pixel[i] = (physics[i] - origin[i])/spacing[i] + 0.5 // 0.5是为了向上取整
+```
+1. i是0/1/2。也就是XYZ轴的值
+1. 像素类型是int，其他是double
+1. origin和spacing是参数
+
 ### 软件
 | 类型 | 名称 | 说明 |
 | :----: | ---- | ---- |
