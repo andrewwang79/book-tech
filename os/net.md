@@ -1,4 +1,8 @@
 # 网络知识
+
+## 资料
+* [OSI七层模型与TCP/IP四层模型](https://blog.csdn.net/qq_39521554/article/details/79894501)
+![](../s/os/net.jpg)
 * [互联网通讯原理](https://segmentfault.com/a/1190000023316912)
   * 核心概念是交换和路由
   * 路由：请求通过路由表跳跃到下个点，路由算法会动态维护网络拓扑
@@ -6,7 +10,7 @@
 * [ip段和掩码说明，如24](http://www.nocidc.com/News/New-96.html)
 * Socket的四个构成：服务端地址、服务端端口、客户端地址、客户端端口。1台服务器可以同时支持远超65536个socket/请求
 
-# http协议
+# HTTP协议
 ## 服务异常场景
 | 场景 | 返回 | 说明 |
 | :-: | - | - |
@@ -37,6 +41,7 @@
 * [WebSocket与TCP、Http的关系](http://blog.csdn.net/linwei_1029/article/details/47836249)
   * WebSocket协议是一个独立的基于TCP的协议。它与HTTP唯一的关系是它的握手是由HTTP服务器解释为一个Upgrade请求。
   * 发起连接是http，传输是tcp，所以要开TCP的80端口
+
 ### 规模
 * [Netty-WebSocket长连接推送服务](http://blog.csdn.net/z69183787/article/details/52505249)
 * [Websocket推送中心(三)-单机100W连接(C1000K)达成](https://shibd.github.io/2019/08/17/Message-Center-3/)
