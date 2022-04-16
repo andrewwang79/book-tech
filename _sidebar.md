@@ -50,3 +50,4 @@
   * [流媒体](common/streammedia.md)
   * [数据备份](common/dataBackup.md)
   * [数据同步](common/sync.md)
+  * [集成电路](hardware/ic.md)
