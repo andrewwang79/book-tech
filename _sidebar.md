@@ -2,6 +2,7 @@
 * 操作系统
   * [网络知识](os/net.md)
   * [IO模型](os/io.md)
+  * [硬件驱动](os/driver.md)
 * 数据结构
   * [树](ds/tree.md)
 * 协议理论
@@ -37,7 +38,7 @@
 * [实时系统和通讯](rtos/SUMMARY.md)
   * [ros](rtos/ros.md)
   * [dds](rtos/dds.md)
-* [其他技术](common/SUMMARY.md)
+* [其他技术方案](common/SUMMARY.md)
   * [运维](common/ops.md)
   * [问题解决](common/toubleshooting.md)
   * [版本和发布](common/version.md)
@@ -47,4 +48,5 @@
   * [excel](common/excel.md)
   * [工作流](common/workflow.md)
   * [流媒体](common/streammedia.md)
-  * [数据备份方案](common/dataBackup.md)
+  * [数据备份](common/dataBackup.md)
+  * [数据同步](common/sync.md)
