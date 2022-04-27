@@ -38,7 +38,7 @@ curl -H "Content-type: application/json" -X POST -d '{"requestId":135213, "metho
 | 请求号 | requestId | string | N | 唯一号，异步使用 |
 | 开始时间 | beginTime | long | Y | 时间戳，毫秒 |
 | 结束时间 | endTime | long | Y | 时间戳，毫秒 |
-| [返回码](exception#返回码) | code | int | Y | 0是成功 |
+| [返回码](#返回码) | code | int | Y | 0是成功 |
 | 业务数据 | data | json | N | 业务执行结果。返回码成功时的业务信息，返回码非零的错误信息(是结构，不是message) |
 | 异常信息 | verbose | string | N | 一般是堆栈，条件=(异常 AND (非生产环境 OR (生产环境 AND 未知错误))) |
 
