@@ -39,6 +39,7 @@
   * [ros](rtos/ros.md)
   * [dds](rtos/dds.md)
 * [其他技术方案](common/SUMMARY.md)
+  * [运维](common/api.md)
   * [运维](common/ops.md)
   * [问题解决](common/toubleshooting.md)
   * [版本和发布](common/version.md)
