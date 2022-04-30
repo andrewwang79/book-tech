@@ -52,3 +52,6 @@
   * [数据备份](common/dataBackup.md)
   * [数据同步](common/sync.md)
   * [集成电路](hardware/ic.md)
+* 文档编写
+  * [markdown使用](doc/markdown.md)
+  * [开发文档](doc/dev.md)
