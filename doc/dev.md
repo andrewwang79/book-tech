@@ -9,6 +9,7 @@
 ## 概要设计
 * [UML用例图详解](https://juejin.cn/post/6844903805226582030)
 * [UML类图详解](https://www.codetd.com/article/3271199), [使用starUML绘制类关系图](https://www.365seal.com/y/zyn1LKKmp3.html)
+* [看懂UML类图和时序图](http://design-patterns.readthedocs.io/zh_CN/latest/read_uml.html)
 * [IDEFO简介](http://blog.vsharing.com/feng5877/A693334.html)
 
 ## 详细设计

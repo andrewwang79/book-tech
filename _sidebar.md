@@ -51,7 +51,9 @@
   * [流媒体](common/streammedia.md)
   * [数据备份](common/dataBackup.md)
   * [数据同步](common/sync.md)
+  * [加密机](common/encryptor.md)
   * [集成电路](hardware/ic.md)
 * 文档编写
-  * [markdown使用](doc/markdown.md)
+  * [markdown文档](doc/markdown.md)
   * [开发文档](doc/dev.md)
+  * [PPT](doc/ppt.md)
