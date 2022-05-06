@@ -100,6 +100,7 @@ ACK后删除DB
 
 ## 资料
 ### 方案
+* [分布式系统的事务处理](https://coolshell.cn/articles/10910.html)
 * [微服务下的数据一致性的几种实现方式之概述](https://www.jianshu.com/p/b264a196b177)
 * [聊聊分布式事务&分布式系统事务一致性解决方案](http://blog.csdn.net/gaowenhui2008/article/details/53910341)
 * [阿里的GTS](http://tech.huanqiu.com/news/2017-04/10451235.html)
@@ -108,19 +109,7 @@ ACK后删除DB
 * springboot多库分布式事务管理（atomikos）:https://blog.csdn.net/WI_232995/article/details/78124885, https://my.oschina.net/bianxin/blog/1610100
 * 分布式事务现有框架: http://seata.io/zh-cn/docs/overview/what-is-seata.html, https://www.codingapi.com/docs/txlcn-preface/
 
-### 事务四大特性ACID
-一致性（Consistency），而原子性（Atomicity）、隔离性（Isolation）、持久性（Durability）
-
 ### 事务模型
 * Actor模型：是强隔离性且弱一致性，在并发中有良好的性能，且易于控制和管理。涉及到多个Actor的事务，无法保证原子性操作。
 * 传统模型(STM)：是强一致性弱隔离性的。比如悲观锁/同步的方式，其实就是使用强一致性的方式控制并发。
 * [Actor模型介绍](https://www.cnblogs.com/listenfwind/p/9963489.html)
-
-### CAP，强一致性
-[CAP定理](http://www.ruanyifeng.com/blog/2018/07/cap.html)
-  * 一致性(C onsistency), 可用性(A vailability), 分区容忍性(P artition tolerance)
-  * 3选2，一般用最终一致性
-
-### BASE，最终一致性
-* CAP理论的延伸
-* BASE是指基本可用（Basically Available）、软状态（ Soft State）、最终一致性（ Eventual Consistency）

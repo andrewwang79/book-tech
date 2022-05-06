@@ -18,5 +18,6 @@
 * 所有叶子节点通过链接打通
 
 ## 资料
-* https://www.jianshu.com/p/86a1fd2d7406
-* https://zhuanlan.zhihu.com/p/27700617
+* [对B+树，B树，红黑树的理解](https://www.jianshu.com/p/86a1fd2d7406)
+* [平衡二叉树、B树、B+树、B*树](https://zhuanlan.zhihu.com/p/27700617)
+* [B-Tree和B+Tree](https://www.kancloud.cn/kancloud/theory-of-mysql-index/41844)

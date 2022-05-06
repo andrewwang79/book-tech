@@ -38,6 +38,7 @@
 | n | 100% | 发布 |
 
 # 资料
+* [灰度发布方案](https://cloud.tencent.com/developer/article/1178722)
 * [灰度发布](http://arganzheng.life/gray-release.html)
 * [前端灰度发布](https://juejin.cn/post/6844903969110622222)
 * [使用Nginx实现Web应用灰度发布](https://www.jianshu.com/p/e89ad8748764)，cookie,ip
