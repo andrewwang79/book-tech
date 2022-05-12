@@ -1,8 +1,15 @@
 * [介绍](README.md)
-* 操作系统
+* 操作系统原理
   * [网络知识](os/net.md)
   * [IO模型](os/io.md)
   * [硬件驱动](os/driver.md)
+  * [编程设备](os/equipment.md)
+  * [集成电路](os/ic.md)
+* [实时操作系统](rtos/SUMMARY.md)
+  * [QNX](rtos/qnx.md)
+  * [Linux](rtos/linux.md)
+  * [ros](rtos/ros.md)
+  * [通讯中间件dds](rtos/dds.md)
 * [数据结构](ds/SUMMARY.md)
   * [树](ds/tree.md)
 * 协议理论
@@ -36,10 +43,6 @@
   * [Spark](bigdata/Spark.md)
   * [Storm](bigdata/Storm.md)
   * [数据仓库和抓取](bigdata/warehouse.md)
-* [实时操作系统](rtos/SUMMARY.md)
-  * [QNX](rtos/qnx.md)
-  * [ros](rtos/ros.md)
-  * [通讯中间件dds](rtos/dds.md)
 * [其他技术方案](common/SUMMARY.md)
   * [API规范](common/api.md)
   * [系统日志](common/log.md)
@@ -56,7 +59,6 @@
   * [数据同步](common/sync.md)
   * [加密机](common/encryptor.md)
   * [系统的性能指标](common/perf.md)
-  * [集成电路](hardware/ic.md)
 * 文档编写
   * [markdown文档编写](doc/markdown.md)
   * [开发文档编写](doc/dev.md)
