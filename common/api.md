@@ -8,15 +8,17 @@
 ## 接口规范
 ### 请求
 * 报文头字段
+
 | 名称 | 字段 | 类型 | 必须 | 说明 |
-| ---- | ---- | ---- | ---- | ---- |
+| :-: | - | - | - | - |
 | 签名 | sign | string | Y |  |
 | 用户令牌 | token | string | N | 登录后才有 |
 | [请求方信息结构](#请求方信息结构) | client | string | N |  |
 
 * 业务字段
+
 | 名称 | 字段 | 类型 | 必须 | 说明 |
-| ---- | ---- | ---- | ---- | ---- |
+| :-: | - | - | - | - |
 | 请求号 | requestId | string | N | 唯一号，异步使用 |
 | 方法 | method | string | Y |  |
 | 版本 | ver | string | Y |  |
@@ -28,13 +30,15 @@ curl -H "Content-type: application/json" -X POST -d '{"requestId":135213, "metho
 
 ### 返回
 * 报文头字段
+
 | 名称 | 字段 | 类型 | 必须 | 说明 |
-| ---- | ---- | ---- | ---- | ---- |
+| :-: | - | - | - | - |
 | 签名 | sign | string | Y |  |
 
 * 业务字段
+
 | 参数 | 名称 | 类型 | 必须 | 说明 |
-| ---- | ---- | ---- | ---- | ---- |
+| :-: | - | - | - | - |
 | 请求号 | requestId | string | N | 唯一号，异步使用 |
 | 开始时间 | beginTime | long | Y | 时间戳，毫秒 |
 | 结束时间 | endTime | long | Y | 时间戳，毫秒 |
@@ -54,29 +58,33 @@ curl -H "Content-type: application/json" -X POST -d '{"requestId":135213, "metho
 
 ### data定义示例
 * API输出data定义
+
 | 名称 | 字段 | 类型 | 必须 | 说明 |
-| ---- | ---- | ---- | ---- | ---- |
+| :-: | - | - | - | - |
 | 姓名 | name | string | Y |  |
 | 当前公司 | company | Company | Y |  |
 | 上过的学校 | schools | array(School) | N |  |
 
 * Company定义
+
 | 名称 | 字段 | 类型 | 必须 | 说明 |
-| ---- | ---- | ---- | ---- | ---- |
+| :-: | - | - | - | - |
 | 名称 | name | string | Y |  |
 | 地址 | address | string | N |  |
 
 * School定义
+
 | 名称 | 字段 | 类型 | 必须 | 说明 |
-| ---- | ---- | ---- | ---- | ---- |
+| :-: | - | - | - | - |
 | 名称 | name | string | Y |  |
 | 地址 | address | string | N |  |
 
 ## 方法命名规范
 * 格式 : entity/operation，entity多层用/分隔，operation多单词用_分隔
 * 示例
+
 | 操作 | 示例 | 说明 |
-| ---- | -- | -- |
+| :-: | - | - |
 | 创建(C) | user/create |  |
 | 读取(R) | user/read |  |
 | 更新(U) | user/update |  |
@@ -88,8 +96,9 @@ curl -H "Content-type: application/json" -X POST -d '{"requestId":135213, "metho
 | 多层entity-自定义操作 | user/password/forget | 忘记密码 |
 
 * 常用自定义操作
+
 | 功能 | 编码 |
-| ---- | -- |
+| :-: | - |
 | 登录 | login |
 | 登出 | logout |
 | 列表 | list |
@@ -105,30 +114,38 @@ curl -H "Content-type: application/json" -X POST -d '{"requestId":135213, "metho
 ## 返回码
 ### 范围
 | 项 | 定义 | 说明 |
-| :----: | ---- | ---- |
+| :-: | - | - |
 | 0 | 请求成功 |  |
-| -1 | 系统繁忙 |  |
 | 1-499 | 通用系统错误 |  |
 | 500-999 | 通用业务错误 |  |
 | 1000以上 | 自定义业务错误 | 业务系统自行定义使用 |
 
 ### 定义
 * 成功
+
 | 编码 | 名称 | 说明 |
-| :----: | -- | -- |
+| :-: | - | - |
 | 0 | 成功 | SUCCESS |
 
 * 系统
+
 | 编码 | 名称 | 说明 |
-| :----: | -- | -- |
-| -1 | 繁忙  | BUSY |
-| 1 | 失败 | FAIL |
+| :-: | - | - |
+| 1 | 失败 | FAIL，包括异常 |
 | 2 | 资源锁定失败 | LOCK_FAIL |
 | 3 | 无可用资源 | NO_RESOURCE |
 
-* 接口
+* 请求
+
 | 编码 | 名称 | 说明 |
-| :----: | -- | -- |
+| :-: | - | - |
+| 40 | 请求的内容类型错误 | REQUEST_CONTENT_TYPE_ERROR |
+| 41 | 请求的数据结构错误 | REQUEST_DATA_STRUCT_ERROR |
+
+* 接口
+
+| 编码 | 名称 | 说明 |
+| :-: | - | - |
 | 50 | 无接口 | NO_METHOD |
 | 51 | 无权限 | NO_PERMISSION |
 | 52 | 接口废弃 | DEPRECATED |
@@ -136,16 +153,18 @@ curl -H "Content-type: application/json" -X POST -d '{"requestId":135213, "metho
 | 54 | 超过最大尝试次数 | MAX_TRY |
 
 * 输入参数检查
+
 | 编码 | 名称 | 说明 |
-| :----: | -- | -- |
+| :-: | - | - |
 | 80 | 参数缺失 | PARAM_MISS |
 | 81 | 参数错误 | PARAM_ERROR |
-| 82 | 参数长度错误 | PARAM_LENTH_ERROR |
-| 83 | 参数格式错误 | PARAM_FORMAT_ERROR |
+| 82 | 参数错误-长度 | PARAM_LENTH_ERROR |
+| 83 | 参数错误-格式 | PARAM_FORMAT_ERROR |
 
 * 业务处理
+
 | 编码 | 名称 | 说明 |
-| :----: | -- | -- |
+| :-: | - | - |
 | 400 | 数据不存在 | NOT_EXIST |
 | 401 | 数据已存在 | EXIST |
 | 402 | 数据重复 | DATA_DUP |
@@ -157,8 +176,9 @@ curl -H "Content-type: application/json" -X POST -d '{"requestId":135213, "metho
 | 460 | 地址解析错误 | ADDRESS_PARSE_ERROR |
 
 * 账号权限
+
 | 编码 | 名称 | 说明 |
-| :----: | -- | -- |
+| :-: | - | - |
 | 500 | 登录失败 | LOGIN_FAIL |
 | 501 | 需登录  | NEED_LOGIN |
 | 503 | 账户冻结 | ACCOUNT_FROZEN |
@@ -173,8 +193,9 @@ curl -H "Content-type: application/json" -X POST -d '{"requestId":135213, "metho
 | 520 | 角色编码错误 | ROLE_CODE_ERROR |
 
 * 文件系统
+
 | 编码 | 名称 | 说明 |
-| :----: | -- | -- |
+| :-: | - | - |
 | 900 | 目录不存在 | NO_DIR |
 | 901 | 目录为空  | EMPTY_DIR |
 | 905 | 目录已存在  | EXIST_DIR |
@@ -189,12 +210,14 @@ curl -H "Content-type: application/json" -X POST -d '{"requestId":135213, "metho
 
 ### 分页
 * 输入
+
 | 名称 | 字段 | 类型 | 必须 | 说明 |
 | ---- | -- | -- | -- | -- |
 | 页号 | page | int | Y | 从1开始，默认是1 |
 | 每页个数 | pageSize | int | Y | 默认是10，默认是10，0是所有 |
 
 * 输出
+
 | 名称 | 字段 | 类型 | 必须 | 说明 |
 | ---- | -- | -- | -- | -- |
 | 总个数 | total | int | Y |  |
