@@ -8,8 +8,8 @@
 * [实时操作系统](rtos/SUMMARY.md)
   * [QNX](rtos/qnx.md)
   * [Linux](rtos/linux.md)
-  * [ros](rtos/ros.md)
-  * [通讯中间件dds](rtos/dds.md)
+  * [ROS](rtos/ros.md)
+  * [DDS](rtos/dds.md)
 * [数据结构](ds/SUMMARY.md)
   * [树](ds/tree.md)
 * 协议理论
