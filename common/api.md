@@ -199,6 +199,7 @@ curl -H "Content-type: application/json" -X POST -d '{"requestId":135213, "metho
 | 900 | 目录不存在 | NO_DIR |
 | 901 | 目录为空  | EMPTY_DIR |
 | 905 | 目录已存在  | EXIST_DIR |
+| 910 | 文件不存在 | NO_FILE |
 
 ## 其他
 ### 请求方信息结构
