@@ -10,8 +10,16 @@
 * [ip段和掩码说明，如24](http://www.nocidc.com/News/New-96.html)
 * Socket的四个构成：服务端地址、服务端端口、客户端地址、客户端端口。1台服务器可以同时支持远超65536个socket/请求
 
-## HTTP协议
-## 服务异常场景
+## 协议
+* [传输协议](https://www.cnblogs.com/xgqfrms/p/4999202.html)
+* [SCP和SFTP](https://www.jianshu.com/p/3adcce4e2661):SCP基于SSH，默认加密是“AES-128”
+* [SSH](https://zh.m.wikipedia.org/zh-hans/Secure_Shell)
+  1. Secure Shell（安全外壳协议），不是SSL。
+  1. 加密的网络传输协议，可在不安全的网络中为网络服务提供安全的传输环境
+  1. 以非对称加密实现身份验证
+
+### HTTP协议
+### 服务异常场景
 | 场景 | HTTP状态码 | 说明 |
 | :-: | - | - |
 | 客户端无网络 | 无 |  |

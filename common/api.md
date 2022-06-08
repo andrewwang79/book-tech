@@ -201,6 +201,14 @@ curl -H "Content-type: application/json" -X POST -d '{"requestId":135213, "metho
 | 905 | 目录已存在  | EXIST_DIR |
 | 910 | 文件不存在 | NO_FILE |
 
+* 算法
+
+| 编码 | 名称 | 说明 |
+| :-: | - | - |
+| 950 | 预处理错误 | PREPROCESS_ERROR |
+| 951 | 推理错误  | MODEL_INFERENCE_ERROR |
+| 952 | 后处理错误  | POSTPROCESS_ERROR |
+
 ## 其他
 ### 请求方信息结构
 * 结构：系统-设备-设备号-运行环境容器-版本
