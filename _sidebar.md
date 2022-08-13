@@ -59,7 +59,12 @@
   * [数据同步](common/sync.md)
   * [加密机](common/encryptor.md)
   * [系统的性能指标](common/perf.md)
+* 测试
+  * [知识](test/SUMMARY.md)
+  * [通用测试工具](test/tool.md)
+  * [单元测试](test/ut.md)
 * 文档编写
   * [markdown文档编写](doc/markdown.md)
   * [开发文档编写](doc/dev.md)
   * [PPT编写](doc/ppt.md)
+* [硬件](hardware/SUMMARY.md)
