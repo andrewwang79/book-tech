@@ -37,6 +37,16 @@
 * [UML类图详解](https://www.codetd.com/article/3271199), [使用starUML绘制类关系图](https://www.365seal.com/y/zyn1LKKmp3.html)
 * [看懂UML类图和时序图](http://design-patterns.readthedocs.io/zh_CN/latest/read_uml.html)
 * [时序图、流程图、状态图、协作图](https://blog.csdn.net/rosekin/article/details/14519277)
+* [UML的类关系](https://blog.csdn.net/K346K346/article/details/59582926)
+
+| 关系 | 符号 | 说明 | 示例 |
+| :-: | - | - | - |
+| 泛化(generalize) | 空心三角箭头 | 继承 |  |
+| 实现(realize) | 空心虚线三角箭头 | 继承抽象类 |  |
+| 聚合关系(aggregation) | 空心菱形箭头 | 集体与个体的关系。非强依赖，集体不存在了个体仍然存在 | 部门撤销了人员依然存在 |
+| 组合关系(composition) | 实心菱形箭头 | 整体与组成部分的关系。强依赖的一种聚合关系，整体不存在了部分也不存在了 | 公司不存在了部门也将不存在了 |
+| 关联关系(association) | 直线箭头 | 不同对象间的静态关系 |  |
+| 依赖关系(dependency) | 虚线直线箭头 | 不同对象间的运行期间的关系 |  |
 
 ## 资料
 * 文档模板 : 本仓库目录/s/doc/dev/

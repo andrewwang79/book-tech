@@ -24,14 +24,13 @@
 
 ### 版本命名规范
 
-| 分类 | 名称 | 示例 | 说明 |
-| :-- | -- | -- | -- |
-| TAG | 编译 | v5.0.0.13124 | v4位数字，临时使用 |
-| TAG | 发布 | v5.0.0 |  v3位数字 |
-| 分支 | 主干 | master/dev |  从本分支发布版本 |
-| 分支 | 版本开发 | 1.0.1, 1.0.x, 21 | Revision版本，Revision范围版本，sprint号 |
-| 分支 | 功能开发 | feature-123, feature-mall_order | feature-[jira号 \| 功能说明 ] |
-| 分支 | hotfix | hotfix-123, hotfix-login_fail | hotfix-[bug号 \| bug说明 ] |
+| 项 | 示例 | 说明 |
+| :-- | -- | -- |
+| 编译TAG | 5.0.0.13124 | GNU |
+| 主干分支 | master/dev |  从本分支发布版本 |
+| 版本分支 | 1.0, 1.0.1, 21 | 子版本号，修正版本，sprint号 |
+| 功能分支 | f-123, f-mall_order | f-[jira号 \| 功能说明 ] |
+| hotfix分支 | ，-123, h-login_fail | h-[bug号 \| bug说明 ] |
 
 ### 阶段
 * Alpha、Beta、Gamma、RC（Release Candidate）、Release
@@ -56,6 +55,7 @@
 * 互联网产品，会在生产环境上做灰度升级，替代灰度环境
 
 ### 资料
+* [版本模型和最佳实践](https://rd.wangyaqi.cn/#/dev/model)
 * [灰度升级](./common/grayupgrade)
 * [软件的生命周期中一般分4个版本](https://blog.51cto.com/sandshell/2162195)
 * [互联网项目发布环境:测试、回归、预发布、灰度发布、上生产](https://blog.csdn.net/linsongbin1/article/details/48467711)

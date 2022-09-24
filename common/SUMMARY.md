@@ -1,6 +1,7 @@
 # 技术知识
 
-1. [设计模式](http://design-patterns.readthedocs.io/zh_CN/latest/creational_patterns/simple_factory.html)
+1. [设计模式](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)
+1. [设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/index.html)
 
 ## 鉴权
 1. [JSON WEB Token(JWT)，签名](https://juejin.im/entry/5993a030f265da24941202c2)
