@@ -8,7 +8,7 @@
 从这三种一致型的模型上来说，我们可以看到，Weak和Eventually一般来说是异步冗余的，而Strong一般来说是同步冗余的，异步的通常意味着更好的性能，但也意味着更复杂的状态控制。同步意味着简单，但也意味着性能下降。
 
 ## 方案指标
-![](../s/common/index.jpg)
+![](../s/sys/index.jpg)
 
 ## 事务四大特性ACID
 一致性（Consistency），而原子性（Atomicity）、隔离性（Isolation）、持久性（Durability）
