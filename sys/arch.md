@@ -95,6 +95,7 @@
 
 ### 资料
 * [亚马逊 CTO 的“中台论”](https://www.infoq.cn/article/SgOOkOhsQBcdkDDEIASg)
+* [设计模式](https://tech.wangyaqi.cn/#/sys/dp)
 * [架构师](https://rd.wangyaqi.cn/#/hire/material/architect)
 * [开发文档编写](https://tech.wangyaqi.cn/#/doc/dev)
 * [中台团队](https://rd.wangyaqi.cn/#/hire/material/zt)

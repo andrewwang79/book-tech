@@ -44,6 +44,7 @@
   * [Storm](bigdata/Storm.md)
   * [数据仓库和抓取](bigdata/warehouse.md)
 * [系统设计](sys/SUMMARY.md)
+    * [设计模式](sys/dp.md)
     * [中间件](sys/middleware.md)
     * [架构](sys/arch.md)
     * [中台](sys/zt.md)
@@ -61,12 +62,19 @@
   * [excel](common/excel.md)
   * [流媒体](common/streammedia.md)
   * [加密机](common/encryptor.md)
-* 测试
-  * [知识](test/SUMMARY.md)
+* 质量
+  * [质量知识](test/quality.md)
+  * [测试知识](test/SUMMARY.md)
   * [通用测试工具](test/tool.md)
   * [单元测试](test/ut.md)
 * 文档编写
   * [markdown文档编写](doc/markdown.md)
   * [开发文档编写](doc/dev.md)
   * [PPT编写](doc/ppt.md)
+  * [术语中英文](doc/term.md)
 * [硬件](hardware/SUMMARY.md)
+* 产品
+  * [产品设计](prd/design.md)
+  * [移动端产品设计规约](prd/mobile_product.md)
+* 参考
+  * [中国行政结构](ref/china.md)
