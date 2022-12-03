@@ -50,3 +50,4 @@
 
 ## 资料
 * 文档模板 : 本仓库目录/s/doc/dev/
+* [visio设置多个相同类型图形的大小和位置](https://blog.csdn.net/jhsword/article/details/105301529)

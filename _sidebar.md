@@ -10,6 +10,7 @@
   * [Linux](rtos/linux.md)
   * [ROS](rtos/ros.md)
   * [DDS](rtos/dds.md)
+  * [TwinCAT](rtos/twincat.md)
 * [数据结构](ds/SUMMARY.md)
   * [树](ds/tree.md)
 * 理论原理
@@ -70,7 +71,6 @@
 * 文档编写
   * [markdown文档编写](doc/markdown.md)
   * [开发文档编写](doc/dev.md)
-  * [PPT编写](doc/ppt.md)
   * [术语中英文](doc/term.md)
 * [硬件](hardware/SUMMARY.md)
 * 产品
