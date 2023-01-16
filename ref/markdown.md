@@ -4,6 +4,7 @@
 ## 常用片段
 
 * 代码块
+> 如果代码段上面是【*或1】，并且代码段中有空行，则代码段上面需要1个空行
 
 ```java
 JavaRDD<String> textFile = sc.textFile("hdfs://...");
