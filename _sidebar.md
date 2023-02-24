@@ -18,6 +18,7 @@
   * [时间序列数据库](theory/tsdb.md)
   * [区块链](theory/block-chain.md)
   * [工作流](theory/workflow.md)
+  * [全球化](theory/g11n.md)
 * [架构和中台](arch/SUMMARY.md)
     * [架构](arch/arch.md)
     * [中台](arch/zt.md)
