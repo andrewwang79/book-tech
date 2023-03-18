@@ -52,7 +52,7 @@
 1. 警告提示模块
 
 ### 需求用例图
-![](s/req/case.png)
+![](s/req/caseDiagram.png)
 
 ### 需求用例
 | 字段 | 必需 | 说明 |
@@ -65,13 +65,14 @@
 | 前置条件 | Y |  |
 | 业务描述 | Y | 包括数据规则、状态逻辑规则和交互规则。 <br> 简单的用文字，复杂的可同时使用原型和UML(状态图，主流程，分支流程，异常流程) <br> 用例不方便写的很细的可以把详细的记录到需求系统(如JIRA、TFS) |
 
-![](https://yqfile.alicdn.com/img_a8bfef6d646b841b9be04bfcf31363da.jpeg)
+![](s/req/case.jpg)
 
 ### 资料
 1. [BRD、MRD和PRD](https://www.zhihu.com/question/19655491) : 分别是做吗，做什么，怎么做
 1. [市场需求文件（MRD）简介、框架、模板](https://zhuanlan.zhihu.com/p/57413137)
 1. [产品经理十四章：产品需求文档(PRD)](https://developer.aliyun.com/article/655300)
 1. [用原型代替PRD时，原型应该包含哪些内容](http://www.woshipm.com/rp/227461.html)
+1. [需求的管理流程](https://blog.csdn.net/qq_26129413/article/details/114037621)
 
 ## 工具
 1. [Axure RP 7.0快捷键 汇总](http://www.woshipm.com/pd/81482.html)
