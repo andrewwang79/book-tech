@@ -11,7 +11,15 @@
 | - | - |
 | 标准以太网 | TCP/UDP |
 | [EtherCAT总线](https://zhuanlan.zhihu.com/p/80572311) | 以太网为基础的现场总线系统，工业以太网 <br> 环形拓扑 |
-| CAN总线(Controller Area Network) | 分布式控制或实时控制的串行通信网络 <br> [现场总线CAN和工业以太网EtherCAT](https://blog.csdn.net/weixin_37863258/article/details/109556747) |  
+| CAN总线(Controller Area Network) | 分布式控制或实时控制的串行通信网络 |  
+
+* [现场总线CAN和工业以太网EtherCAT](https://blog.csdn.net/weixin_37863258/article/details/109556747)
+
+## 计算机通信协议
+| 名称 | 说明 |
+| - | - |
+| [SPI(串行外围设备接口/Serial Peripheral interface)](https://zhuanlan.zhihu.com/p/150121520) | 高速、同步、全双工 |
+| [UART(通用异步收发器/Universal Asynchronous Receiver/Transmitter)](https://zhuanlan.zhihu.com/p/150504364) | 串行、异步、全双工。在嵌入式领域应用的非常广泛 |
 
 ## 通信协议和中间件
 | 名称 | 说明 | 总线 |

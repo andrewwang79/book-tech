@@ -7,8 +7,9 @@
   * [QNX](rtos/qnx.md)
   * [Linux](rtos/linux.md)
   * [ROS](rtos/ros.md)
-  * [DDS](rtos/dds.md)
-  * [TwinCAT](rtos/twincat.md)
+  * [运动控制软件TwinCAT](rtos/twincat.md)
+  * [总线EtherCAT](rtos/ethercat.md)
+  * [通信中间件DDS](rtos/dds.md)
 * [数据结构](ds/SUMMARY.md)
   * [树](ds/tree.md)
 * 理论原理
