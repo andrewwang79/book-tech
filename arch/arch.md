@@ -30,6 +30,8 @@ SOLID原则
 目标分milestone执行，不同比例奖励不同
 执行要迅速，手法要柔和
 
+规划好做正确的事(参考，第一性原则)，而不是填坑式解决问题。
+
 # 架构设计
 ## RUP 4+1视图的方式组织
 * https://blog.csdn.net/apanious/article/details/51011946
