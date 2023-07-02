@@ -21,7 +21,6 @@
   * [树](ds/tree.md)
 * 理论原理
   * [JVM原理](theory/jvm.md)
-  * [密码学](theory/cryptography.md)
   * [数据一致性](theory/data.md)
   * [时间序列数据库](theory/tsdb.md)
   * [区块链](theory/block-chain.md)
@@ -62,6 +61,10 @@
   * [Spark](bigdata/Spark.md)
   * [Storm](bigdata/Storm.md)
   * [数据仓库和抓取](bigdata/warehouse.md)
+* [密码学](cryptography/SUMMARY.md)
+  * [理论原理](cryptography/theory.md)
+  * [数据加解密](cryptography/data.md)
+  * [加密机](cryptography/encryptor.md)
 * 其他技术
   * [运维](common/ops.md)
   * [问题解决](common/toubleshooting.md)
@@ -69,7 +72,6 @@
   * [electron](common/electron.md)
   * [excel](common/excel.md)
   * [流媒体](common/streammedia.md)
-  * [加密机](common/encryptor.md)
 * 质量
   * [质量知识](test/quality.md)
   * [测试知识](test/SUMMARY.md)
