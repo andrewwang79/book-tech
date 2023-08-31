@@ -24,6 +24,9 @@
 | 活动图activity | 详细设计 | 具体功能的实现，等同流程图 | N |
 
 ### [UML的类关系](https://blog.csdn.net/K346K346/article/details/59582926)
+
+![](s/bd/ClassRelation.png)
+
 | 关系 | 符号 | 说明 | 示例 |
 | :-: | - | - | - |
 | 泛化(generalize) | 空心三角箭头 | 继承 |  |
