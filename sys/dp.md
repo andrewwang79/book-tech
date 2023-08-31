@@ -1,6 +1,24 @@
 # 设计模式
-1. [设计模式](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)
-1. [设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/index.html)
+## [设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/index.html)
+1. 创建型模式
+    1. 简单工厂模式( Simple Factory Pattern )
+    1. 工厂方法模式(Factory Method Pattern)
+    1. 抽象工厂模式(Abstract Factory)
+    1. 建造者模式
+    1. 单例模式
+1. 结构型模式
+    1. 适配器模式
+    1. 桥接模式
+    1. 装饰模式
+    1. 外观模式
+    1. 享元模式
+    1. 代理模式
+1. 行为型模式
+    1. 命令模式
+    1. 中介者模式
+    1. 观察者模式
+    1. 状态模式
+    1. 策略模式
 
 ## 六大原则
 1. 开闭原则（Open Close Principle）
@@ -18,3 +36,4 @@
 > 尽量使用合成/聚合的方式，而不是使用继承。
 
 ## 资料
+* [全部设计模式](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)
