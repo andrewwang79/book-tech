@@ -16,57 +16,15 @@ SOLID原则
 # 人
 ## 能力要求
 
-# 编写
-* RUP视图
-* 系统概要设计
-
-## UML等工具
-
-信息唯一，不要好多文档都有重复
-一开始好差不是关键，需有进化能力
-融合平衡：商业，产品，技术
-润物细无声的架构升级
-
-规划好做正确的事(参考，第一性原则)，而不是填坑式解决问题。
-
 环境搭建手册
 构建发布手册
 安装/集成使用手册
-
-# 架构设计
-## RUP 4+1视图的方式组织
-* https://blog.csdn.net/apanious/article/details/51011946
-* https://zhuanlan.zhihu.com/p/112531852
-场景视图：usercase
-逻辑视图：对象模型,table
-过程视图：流程图
-开发视图：软硬件，页面结构图，系统架构图
-物理视图：部署
-
-## 其他
-* 架构分类，四种架构方法：https://blog.csdn.net/weixin_43805705/article/details/127967264
-* [软件架构纵横谈1：方法、模式与框架](https://www.cnblogs.com/windfic/p/14998414.html)
-* [架构设计五视图法](https://www.cnblogs.com/duanxz/p/4526763.html), https://blog.csdn.net/nnsword/article/details/78109126
-* [技术委员会](https://blog.csdn.net/aisoo/article/details/104490999)
-
-
----
-因为软件架构就是系统的草图，不仅是代码编写而且包括部署，运行、开发等这些方面进行设计，
-目的是为了保证软件开发、运行、扩展、性能、安全、伸缩等等质量的一个保证
-
-架构设计分类：业务架构、应用架构、技术架构, 代码架构, 部署架构。业务架构是战略，应用架构是战术，技术架构是装备。
-
-重大技术评审【确保公司产品整体架构(工程+算法)的扩展性和稳定性】，架构设计，技术选型/储备/攻坚
-建设并推广基础架构和通用模块：减少开发成本，提升产品质量
-研发基座：规范研发体系，建设研发效能平台：提升研发效率，提升产品质量和交付质量
-通用技术保障高效高质量开发
 
 
 我是分割线，上面是要整理的
 
 
 # 架构
-
 ## 什么是架构
 > 类比：设计大楼【地基重做就是架构重构了】，边开飞机边换引擎【地基没问题】
 知道钢筋特性及其趋势，不需要知道咋做钢筋
@@ -131,29 +89,6 @@ SOLID原则
 | 数据库层 | Database |  |
 
 ## 知识
-### 架构
-* [架构模型](http://www.ruanyifeng.com/blog/2016/09/software-architecture.html)：分层架构，事件驱动架构，微核架构，微服务架构，云架构
-
-#### 常规
-| 项 | 内容 |
-| :-: | - |
-| 软件架构 | 对软件系统运行时元素的抽象，软件系统可能有很多层抽象，或由多重业务流程所组成，每层抽象或每个业务流程都有自己的软件架构。 |
-| 系统架构 | 业务及其部署 |
-
-* 架构视图: [分类1](https://juejin.cn/post/6844903588511088653), [分类2](https://blog.csdn.net/xuwei198603/article/details/46454321)
-
-| 视图 | 类型 | 内容 | 目标 |
-| :-: | - | - | - |
-| 逻辑架构 | 软件架构 | 逻辑元素组成和关系，逻辑元素可以是逻辑层、功能子系统、模块。别名有应用架构和系统架构 | 明确元素及其关系 |
-| 技术架构 | 软件架构 | 分层 | 技术 |
-| 运行架构 | 软件架构 |  | 解决运行中的问题，如并发 |
-| 物理架构 | 系统架构 | 网络、服务器等设施和软件的部署架构 | 高性能、可伸缩性、易维护性，监控 |
-| 数据架构 | 系统架构 | 基于数据的设施和软件的部署架构 | 高性能、高可用性、灾备 |
-
-#### TOGAF企业架构
-* [TOGAF企业架构](https://zhuanlan.zhihu.com/p/442963069)有4种：业务架构、数据架构、应用架构、技术架构
-* [资料](https://segmentfault.com/a/1190000019704801)
-
 ### 重构
 * 随着业务快速迭代，重构是个正常需求。
 * 重构是经常性做的，不是攒到某一刻动大手术，甚至推翻重做，那就不叫重构了。
@@ -174,10 +109,10 @@ SOLID原则
 ### 资料
 * [亚马逊 CTO 的“中台论”](https://www.infoq.cn/article/SgOOkOhsQBcdkDDEIASg)
 * [设计模式](https://tech.wangyaqi.cn/#/sys/dp)
+* [技术委员会](https://blog.csdn.net/aisoo/article/details/104490999)
 * [架构师](https://rd.wangyaqi.cn/#/hire/material/architect)
-* [开发文档编写](https://tech.wangyaqi.cn/#/doc/dev)
+* [概要设计](https://tech.wangyaqi.cn/#/doc/sbd)
 * [中台团队](https://rd.wangyaqi.cn/#/hire/material/zt)
-* [开放组体系结构框架TOGAF](https://zhuanlan.zhihu.com/p/47939015): 开发企业架构（Enterprise Architecture）的一套方法和工具。企业架构是承接企业业务战略与 IT战略之间的桥梁与标准接口，是企业信息化规划的核心。
 
 ### IaaS/PaaS/SaaS
 ![IaaSPaaSSaaS](https://pic4.zhimg.com/80/v2-1a82f8a4997b0ba53d801639d4c6706e_hd.jpg)

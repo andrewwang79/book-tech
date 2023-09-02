@@ -80,9 +80,10 @@
 * 产品
   * [产品设计](product/design.md)
   * [移动端产品设计规约](product/mobile_spec.md)
-* [研发文档编写](doc/SUMMARY.md)
-  * [需求文档](doc/req.md)
-  * [设计文档](doc/dev.md)
+* [研发文档](doc/SUMMARY.md)
+  * [需求定义](doc/req.md)
+  * [系统分析](doc/sa.md)
+  * [概要设计](doc/sbd.md)
 * 参考
   * [markdown文档编写](ref/markdown.md)
   * [术语中英文](ref/term.md)
