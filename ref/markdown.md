@@ -30,12 +30,12 @@ JavaRDD<String> textFile = sc.textFile("hdfs://...");
 * 常量
 
 | 字段 | 名称 | 说明 |
-| :-: | - | - |
+| - | - | - |
 | MOBILE | 手机 |  |
 
 ```
 | 字段 | 名称 | 说明 |
-| :-: | - | - |
+| - | - | - |
 | MOBILE | 手机 |  |
 ```
 

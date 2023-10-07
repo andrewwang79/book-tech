@@ -72,19 +72,6 @@
   * [electron](common/electron.md)
   * [excel](common/excel.md)
   * [流媒体](common/streammedia.md)
-* 质量
-  * [质量知识](test/quality.md)
-  * [测试知识](test/SUMMARY.md)
-  * [通用测试工具](test/tool.md)
-  * [单元测试](test/ut.md)
-* 产品
-  * [产品设计](product/design.md)
-  * [移动端产品设计规约](product/mobile_spec.md)
-* [研发文档](doc/SUMMARY.md)
-  * [需求定义](doc/req.md)
-  * [UML](doc/uml.md)
-  * [系统分析](doc/sa.md)
-  * [概要设计](doc/sbd.md)
 * 参考
   * [markdown文档编写](ref/markdown.md)
   * [术语中英文](ref/term.md)
