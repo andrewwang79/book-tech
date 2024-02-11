@@ -46,6 +46,7 @@
   * [锁](distarch/locker.md)
   * [全局ID](distarch/globalid.md)
   * [分库分表](distarch/db.md)
+  * [云原生生态系统](distarch/cloudNative.md)
   * [服务治理](distarch/sg/SUMMARY.md)
   * 组件原理
     * [Nginx](distarch/component/nginx.md)
