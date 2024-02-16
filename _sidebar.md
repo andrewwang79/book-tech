@@ -12,7 +12,7 @@
 * [操作系统](os/SUMMARY.md)
   * [网络](os/net.md)
   * [内存](os/memory.md)
-  * [进程间通信](os/ipc.md)
+  * [进程间通信](https://cpp.wangyaqi.cn/#/kb/ipc/SUMMARY)
   * [IO模型](os/io.md)
   * [硬件驱动](os/driver.md)
   * [QNX](rtos/qnx.md)
