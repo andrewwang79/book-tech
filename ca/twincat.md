@@ -6,3 +6,4 @@
   1. PLC轴是通过系统PLC中的梯形图编写后会运行的轴,
   1. NC轴就是系统本身自带的运行轴
   1. 物理轴
+* [ADS返回码](https://infosys.beckhoff.com/english.php?content=../content/1033/tf6701_tc3_iot_communication_mqtt/374277003.html&id=)

@@ -30,7 +30,6 @@
 * [系统设计和实现](sys/SUMMARY.md)
     * [设计模式](sys/dp.md)
     * [API规范](sys/api.md)
-    * [系统安全](sys/safe.md)
     * [系统日志](sys/log.md)
     * [数据备份](sys/dataBackup.md)
     * [数据同步](sys/dataSync.md)
