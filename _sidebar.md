@@ -24,5 +24,6 @@
   * [集成电路](hardware/ic.md)
 * [电气](electric/SUMMARY.md)
 * [运动控制](mc/SUMMARY.md)
+  * [标定](mc/cali.md)
 * [机器人](robot/SUMMARY.md)
   * [手术机器人](robot/surgery.md)
