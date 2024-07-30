@@ -26,7 +26,7 @@
 | 名称 | 说明 | 总线 |
 | - | - | - |
 | [SOME/IP(Scalableservice-Oriented Middleware over IP)](https://zhuanlan.zhihu.com/p/253077443) | 事件通知，远程过程调用和访问进程数据 | 标准以太网 |
-| [DDS(Data Distribution Service)](/rtos/dds) | 基于Topic来实现发布-订阅模式，没有中心节点，是端到端分布式通信中间件。 <br> 不适合大规模端点(没有中心节点导致发现成本太高) | 标准以太网 |
+| [DDS(Data Distribution Service)](/os/sw_component/dds) | 基于Topic来实现发布-订阅模式，没有中心节点，是端到端分布式通信中间件。 <br> 不适合大规模端点(没有中心节点导致发现成本太高) | 标准以太网 |
 | MQTT |  | 标准以太网 |
 
 * [物联网通信协议——比较-MQTT、 DDS、 AMQP、XMPP、 JMS、 REST、 CoAP](https://www.cnblogs.com/saryli/p/9742709.html)
