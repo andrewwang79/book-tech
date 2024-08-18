@@ -1,9 +1,19 @@
 ## TwinCAT
+* [TwinCAT(The Windows Control and Automation Technology)](/os/sw_component/twincat) ：基于Windows的运动控制软件(运动控制+通讯)，使用EtherCAT总线
 * [TwinCAT](https://blog.csdn.net/jldemanman/article/details/79207148)是Beckhoff公司基于Windows的运动控制软件，有[ADS(Automation Device Specification/自动化设备规范)](https://blog.csdn.net/akadiao/article/details/118185495)
 * 通过C++/PLC混合程序控制PLC
 * 通讯：上位机(PC) <-ADS通讯-> PLC <-EtherCAT总线-> 设备
-* 包含三层结构：PLC轴、NC轴和物理轴。
-  1. PLC轴是通过系统PLC中的梯形图编写后会运行的轴,
-  1. NC轴就是系统本身自带的运行轴
-  1. 物理轴
+* 包含三层结构：PLC轴、NC轴(Numberic Control)和物理轴
+
+## 开发
+### 结构定义
+1. POU (Program Organization Unit)：程序组织单元，包括程序（Program）、功能块（Function Block）和函数（Function）。是PLC编程的基本构建块。
+    * Program：一可以独立执行的代码块，通常用来实现特定的控制任务。
+    * Function Block：带有内部状态的代码块，可以实例化多次。类似于面向对象编程中的类。
+    * Function：没有内部状态的代码块，通常用来执行特定的计算任务，并返回一个结果。
+1. DUT (Data Unit Type)：数据类型单元。用户定义的数据类型，包括枚举（Enum）、结构（Struct）和联合（Union）等。
+1. GVL (Global Variable List)：全局变量列表。定义在整个项目中都可以访问的全局变量。提供了一种在不同的POU之间共享数据的方式。
+1. VISU (Visualization)：创建人机界面（HMI），监控和控制PLC系统。
+
+## ADS
 * [ADS返回码](https://infosys.beckhoff.com/english.php?content=../content/1033/tf6701_tc3_iot_communication_mqtt/374277003.html&id=)

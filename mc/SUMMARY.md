@@ -28,8 +28,9 @@
 * DH参数模型的建模，标定校准，DH偏差
 DH标定：制造精度不够，装配有偏差：https://zhuanlan.zhihu.com/p/389301053
 
-## 数学
-* 微分方程
-
 ## 工具
 激光跟踪仪，三坐标测量仪
+
+## 知识
+* 三维空间的旋转 : [四元数](https://www.cnblogs.com/kaige/p/quaternions.html)，旋转矩阵，欧拉角
+* 微分方程
