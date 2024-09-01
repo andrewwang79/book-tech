@@ -16,4 +16,9 @@
 1. 不适合大规模节点：通过广播自动发现限制了节点数量
 
 ## 使用方法
-1. 同一型号的两台设备使用方法：domain一样，partition不一样(是SN)，topic一样(编码一致)。
+1. 同一型号的两台设备使用方法：domain一样，partition不一样(相当于SN)，topic一样(编码一致)。
+
+## 第三方库
+### FastDDS
+* [eProsima Fast DDS](https://github.com/eProsima/Fast-DDS)
+* [安装](https://eprosima-dds-router.readthedocs.io/en/latest/rst/developer_manual/installation/sources/linux.html)
