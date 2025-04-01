@@ -9,6 +9,7 @@
 ### 通讯协议
 * 互联网时，ADS和EAP时延差不多（都用TCP/IP了）。
 * 局域网时，EAP快ADS在1-2数量级。EAP用ethercat时是在局域网的链路层，没用IP层。
+* TwinCAT自版本3.1 Build 4024.0开始支持DDS。
 
 #### EAP
 * EAP（EtherCAT Automation Protocol）是一种用于工业自动化的通信协议，基于EtherCAT实时以太网技术，实现设备之间的高效数据交换。

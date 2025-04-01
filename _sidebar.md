@@ -1,5 +1,4 @@
 * [介绍](README.md)
-* [计算机系统](ca/SUMMARY.md)
   * [系统的性能指标](ca/perf.md)
 * [操作系统](os/SUMMARY.md)
   * 理论
@@ -11,6 +10,9 @@
   * 操作系统
     * [QNX](os/qnx.md)
     * [Linux](os/linux.md)
+* 架构
+  * AUTOSAR
+    * [简介](ca/autosar/SUMMARY.md)
 * 软件组件
   * [运动控制软件TwinCAT](os/sw_component/twincat.md)
   * [ROS](os/sw_component/ros.md)
