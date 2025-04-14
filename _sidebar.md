@@ -1,5 +1,5 @@
 * [介绍](README.md)
-  * [系统的性能指标](ca/perf.md)
+  * [系统的性能指标](sys/perf.md)
 * [操作系统](os/SUMMARY.md)
   * 理论
     * [网络](os/net.md)
@@ -11,20 +11,20 @@
     * [QNX](os/qnx.md)
     * [Linux](os/linux.md)
 * 架构
-  * AUTOSAR
-    * [简介](ca/autosar/SUMMARY.md)
+  * [AUTOSAR](ca/autosar/SUMMARY.md)
+  * [运动控制软件TwinCAT](ca/twincat.md)
+  * [ROS2](ca/ros/SUMMARY.md)
+  * [ROS2替代倍福](ca/ros/sln.md)
 * 软件组件
-  * [运动控制软件TwinCAT](os/sw_component/twincat.md)
-  * [ROS](os/sw_component/ros.md)
   * [通信中间件DDS](os/sw_component/dds.md)
+* [通信标准协议](comm/SUMMARY.md)
+  * [总线EtherCAT](comm/ethercat.md)
 * 硬件组件(外设)
   * [图像信号采集处理(摄像头)](peri/image.md)
 * [设备](hardware/SUMMARY.md)
   * [编程设备](hardware/equipment.md)
   * [总线协议](hardware/bus/SUMMARY.md)
   * [集成电路](hardware/ic.md)
-* [通信标准协议](comm/SUMMARY.md)
-  * [总线EtherCAT](comm/ethercat.md)
 * [电气](electric/SUMMARY.md)
 * [运动控制](mc/SUMMARY.md)
   * [标定](mc/cali.md)
