@@ -6,10 +6,20 @@
 
 ## 核心技术
 1. 以数据为核心的基于TOPIC的发布订阅模型（Data-Centric Publish-Subscribe，DCPS）
-1. 创建了一个虚拟的**“全局数据空间”**（global data space），系统所有数据都在这个空间中，所有独立的应用都可以去读写数据。每一个发布者或者订阅者都称为参与者（participant），每一个参与者都可以使用某种定义好的数据类型来读写全局数据空间。
-1. 3个层级：domain(管理和维护便利，同domain的才可通信)，partition(访问权限控制)，topic(模块和数据名)
 1. 基于TCP/IP，没有中心节点，通过topic各节点相互**自动发现**和通讯。
-1. QoS支持持久化和访问权限
+1. 创建了一个虚拟的**“全局数据空间”**（global data space），系统所有数据都在这个空间中，所有独立的应用都可以去读写数据。每一个发布者或者订阅者都称为参与者（participant），每一个参与者都可以使用某种定义好的数据类型来读写全局数据空间。
+1. 信息的3个逻辑分层：domain(管理和维护便利，同domain的才可通信)，partition(访问权限控制)，topic(模块和数据名)
+1. QoS支持持久化和访问权限。QoS由各组件协同管理，DataWriter和DataReader是QoS的最终执行者。
+
+## 组件
+| 项 | 说明 | 类比 |
+| - | - | - |
+| DomainParticipant | 顶级容器，代表当前应用程序在DDS网络中的存在，管理所有通信资源 | 计算机 |
+| Publisher | 数据发布的管理者，创建和管理N个DataWriter | 发布程序 |
+| DataWriter | 绑定一个特定Topic，向Topic发布数据 | 输出socket |
+| Subscriber | 数据订阅的管理者，创建和管理N个DataReader | 订阅程序 |
+| DataReader | 绑定一个特定Topic，从Topic接收数据 | 输入socket |
+| Topic | 数据逻辑通道，作为发布者和订阅者的连接点(连接N个DataWriter和DataReader) |  |
 
 ## 使用场景
 1. 适用小规模数据，不是大规模数据。用于通讯(信令和信息传输)，不是大数据传输。大数据传输可使用NFS/FTP/socket等配合DDS。
@@ -18,7 +28,5 @@
 ## 使用方法
 1. 同一型号的两台设备使用方法：domain一样，partition不一样(相当于SN)，topic一样(编码一致)。
 
-## 第三方库
-### FastDDS
-* [eProsima Fast DDS](https://github.com/eProsima/Fast-DDS)
-* [安装](https://eprosima-dds-router.readthedocs.io/en/latest/rst/developer_manual/installation/sources/linux.html)
+## 实现方案
+* [FastDDS](https://cpp.wangyaqi.cn/#/lib/fastdds)
