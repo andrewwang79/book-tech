@@ -10,11 +10,8 @@
   * 操作系统
     * [QNX](os/qnx.md)
     * [Linux](os/linux.md)
-* 架构
+* 架构标准
   * [AUTOSAR](ca/autosar/SUMMARY.md)
-  * [运动控制软件TwinCAT](ca/twincat.md)
-  * [ROS2](ca/ros/SUMMARY.md)
-  * [ROS2替代倍福](ca/ros/sln.md)
 * 软件组件
   * [通信中间件DDS](os/sw_component/dds.md)
 * [通信标准协议](comm/SUMMARY.md)
@@ -25,8 +22,11 @@
   * [编程设备](hardware/equipment.md)
   * [总线协议](hardware/bus/SUMMARY.md)
   * [集成电路](hardware/ic.md)
-* [电气](electric/SUMMARY.md)
-* [运动控制](mc/SUMMARY.md)
-  * [标定](mc/cali.md)
 * [机器人](robot/SUMMARY.md)
+  * [ROS2](robot/ros/SUMMARY.md)
+  * [ROS2替代倍福](robot/ros/sln.md)
+  * [电气](robot/electric/SUMMARY.md)
+  * [运动控制](robot/mc/SUMMARY.md)
+  * [运动控制软件TwinCAT](robot/mc/twincat.md)
+  * [标定](robot/mc/cali.md)
   * [手术机器人](robot/surgery.md)
