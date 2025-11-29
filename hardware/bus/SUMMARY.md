@@ -14,3 +14,14 @@
 
 * [一个故事看懂DMA](https://zhuanlan.zhihu.com/p/272200286)
 * [网络传输中的buffer以及DMA传输](https://blog.csdn.net/KingOfMyHeart/article/details/98091940)
+
+## 音视频
+| 数据格式 | 来源 | 数据结构 | 压缩 | 使用方式 |
+| - | - | - | - | - |
+| 标准RAW格式 | 图像传感器直接输出的原生数据 | 单通道拜耳阵列(如RGGB) | 无损压缩(如CinemaDNG)或无压缩 | 专用解码器 |
+| 原始帧数据 | 标准RAW格式经ISP(图像信号处理器)处理后的数据 | RGB，YUV(Y亮度, U/V色度) | 有损压缩(（如JPEG)，轻量无损压缩(如PNG)，无压缩(如RGB24) | 通用图像处理库(如OpenCV,FFmpeg)可直接解析 |
+
+| 传输接口 | 名称 | 定位 |
+| - | - | - |
+| HDMI | 高清多媒体接口 | 消费级 |
+| SDI | 串行数字接口 |专业级 |
