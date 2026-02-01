@@ -1,9 +1,10 @@
 # EtherCAT
 > EtherCAT是标准的以太网帧，修改了数据链路层的结构使其更加符合工业应用中的实时性和一致性。EtherCAT的帧结构和Ethernet的帧结构完全兼容，通过在数据段即用户应用协议层增加了EtherCAT的对应数据。
+> EtherCAT本身是工作在数据链路层的实时工业协议，直接在数据链路层定义了通信规则，无需依赖IP等网络层协议
 
 ## 区别
 1. EtherCAT和Ethernet(传统以太网)
-    1. 数据链路层不同
+    1. 数据链路层不同，IPv4的EtherType为0x0800，EtherCAT的EtherType为0x88A4
     1. EtherCAT是实时传输，Ethernet非实时
 1. EtherCAT和CAN总线
     1. EtherCAT完全兼容CanOpen协议
